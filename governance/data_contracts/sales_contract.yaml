@@ -1,0 +1,97 @@
+# NorthPeak Data Contract - FactSales
+# Version: 1.0.0
+# Owner: Data Platform Engineering Team
+# Steward: Aisha Okafor (Data Engineering Manager)
+# Business Owner: CFO (Revenue Reporting)
+# Last reviewed: 14 July 2026
+
+contract:
+  name: northpeak_fact_sales
+  version: "1.0.0"
+  status: active
+  sla:
+    freshness: T+1          # Gold layer populated by 06:00 UTC daily
+    availability: 99.5%     # Monthly uptime target
+    latency_max_hours: 4    # Maximum pipeline run time
+
+schema:
+  table: marts.fact_sales
+  grain: one row per order (order_id is unique)
+
+  columns:
+    - name: sales_key
+      type: VARCHAR(64)
+      nullable: false
+      description: "Surrogate key - SHA-256 hash of order_id"
+      rules:
+        - not_null
+        - unique
+
+    - name: order_id
+      type: INTEGER
+      nullable: false
+      description: "Natural key from NP Core orders table"
+      rules:
+        - not_null
+        - unique
+        - min_value: 1
+
+    - name: customer_key
+      type: INTEGER
+      nullable: false
+      description: "FK to DimCustomer. -1 = UNKNOWN_CUSTOMER (pre-2018 records)"
+      rules:
+        - not_null
+
+    - name: store_key
+      type: INTEGER
+      nullable: false
+      description: "FK to DimStore. Must always be populated - no unknown stores."
+      rules:
+        - not_null
+        - referential_integrity: dim_store.store_key
+
+    - name: total_amount
+      type: NUMERIC(10,2)
+      nullable: false
+      description: "Gross order value in GBP before discounts"
+      rules:
+        - not_null
+        - min_value: 0           # negative amounts quarantined in Silver
+        - max_value: 10000       # sanity check
+
+    - name: order_channel
+      type: VARCHAR(20)
+      nullable: false
+      description: "Sales channel"
+      rules:
+        - not_null
+        - accepted_values: [in_store, online, click_collect]
+
+quality_gates:
+  - check: row_count_daily_minimum
+    threshold: 100
+    action: alert_and_block_downstream
+    severity: critical
+
+  - check: null_store_key_rate
+    threshold: 0.0
+    action: fail_pipeline
+    severity: critical
+
+  - check: unknown_customer_rate
+    threshold: 0.06            # warn if more than 6% unknown (expected ~4.1%)
+    action: alert_only
+    severity: warning
+
+  - check: total_amount_negative_rate
+    threshold: 0.0
+    action: fail_pipeline      # negatives must be quarantined before reaching Gold
+    severity: critical
+
+schema_evolution_policy:
+  add_column: allowed_with_approval
+  remove_column: blocked         # removing columns breaks downstream consumers
+  rename_column: blocked
+  change_type: blocked
+  approval_required_from: [aisha.okafor, marcus.webb]

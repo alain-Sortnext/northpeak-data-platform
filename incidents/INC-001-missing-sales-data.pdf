@@ -1,80 +1,99 @@
-# Incident Report: INC-001 - FactSales Missing 3 Days of Data
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-**Incident ID:** INC-001
-**Severity:** P1 - Critical
-**Status:** Resolved
-**Reported by:** Chloe Tan (BI Developer)
-**Date reported:** 2026-10-15 08:47 UTC
-**Date resolved:** 2026-10-15 14:22 UTC
-**Duration:** 5 hours 35 minutes
-**Affected tables:** marts.fact_sales
-**Missing data:** 2026-10-12, 2026-10-13, 2026-10-14 (3 days)
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
----
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260721211714+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260721211714+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 4 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1877
+>>
+stream
+Gau1.gMYb*&;KZP'Q[3g.;GtUlKGjuBo4IMRl5Gp=<Kjo9=2s'/3+o>"-A;q+_B>%>pZN"`e\1t,Oq8^bg.F5(I,ie-VJuR$2ed4J5DWWJ9[(ZPJ?&9Uj(Q<CJ-m2JsaO\_LOTk%UseqDnhd!\]dA2BdTJeM2!:>X'T\9>(RP&-]6mh:U9?oM9K+N+ANbBp(EAu30YNfrph2:YK1)Ps1F-"pJ0f6hCsuU]D+S1O'EH!4>QL5jkKpq4#]M:n>$aPHf&o3HdSYZfsO#m4c]\Q[?#!RTDAl"$/C'HA;P5t5hPc>rU[co"4nhdpah\nq&IC:'+.LFk&?n>1)7?SbL,hl9`B[dHSa_ar7p#pYIh^$-K(KYON>H=a7h$"mbb_iO_=1"L-76WFNqPY'<@kW6WcDP"$#=tY!$Ls@d):9Jmr>?gN.!LPIQWKiipso+:^:6\'K&BK1g#Y)X,g-2tOP3I==5a*+iBV9u$5VFhAiU%NBgImR/Msj5/-i9\`*^9-ude!"cXF!be_e[5\#[:doOTdLILKoWXJD1_D01pUqY#Z9l?[kA\s93JUOl;HBkeH$.U;LjFgW@3un<W2]KPW(VaDE<jDe2]?ucI%-'U^pjWHjVk"fKpQ2'2oGda"QMuWB'F#0E\32sO2H`A;3_KU%ni<l>,VoFiIRtS4I`$fMm\Z8kNn@u=ueCgRVQKQV?;^*@.#p.QD/W3:Cd?-rQTM7H^N=lT7'[Eo%D%bMgX,lPs1go.,fil@,O,_g&ORuLO6E(Zfa`d'"]Rd&bB`'i=Q`VH>r[o])i6-Fp/qr'%5EP$*KDm!0fLfUOKfUFq#%AJlVt,g)>'>Vu6#7fZ:3o`.=*ZB29oZkK=U;bNj6-Kt]p+R'lOR^1M5$qlEHC_cc.oSQl'76GSrI?Bft$Vb<W4Br)ToJsRpb"l;lq0>OHl9fSLT,rQ/YO"M&N9^u8L>##;]4E_S'<f\2J"MKm(FFcp_>4<j-R77g9g:/;#Z\>Vgh;AqNS"g3DHc4OkM7g]k9$SsRXLP\L](+-i6"upgeZ+Nle3D0L1R[hs&Wd],Atl>7<>K;&<t*)i`7j6(1rOUl;quFcIJ5**aVk3_<(_:C)Q'?12%kXg:ODjD*I3`>>WpGf/*\kKd*KLkZG:Rc70h@5-uEg?;T`I*c:a[sHQd9W@m@inip*Ip_^rh,R(;TY)&=dK%r%@_L1MC,%=X'fYqU:ZR'oX4$`V#lD3ljj0ViufJO\VO(q`_6Vum^D'H(XaLYu[36bKp71)[OENPSC*a-3@8/A\4Cl3O!>j.5FqT3c0)0g0Ks_9QD/dUg5PFWX3Q@jeb/1q:BKo?krq=jF>4*_qb\TdZ.OYnHusg<)_;;HQ(_0`EsKI2n;V>%pO*qAT5PI6B6hoQjZ9,"#X(`If$l\*]jc$I<a0Wj49!,jmtG'EQhFZf6%)O!`^(h"D5;o1hY^]lqfh0uqs*YXXIH=p3Fa2]i54s(-d3d=l9^*tMrR$knPJ*><VRDe3\;r?qAh&QD5W2f53j$Um8"g;OLA?F+EV#=a;>q(H1K9a4tc"5GPA)\PiQIkSNE<ionQUS(eAD"bJHfYW7eA="kh&sHtkq41Z4k&r7`<d>,4E)Ug\0iqu3Q/]O4j:_L[7:>)A$/B*CWKlsF$*`BN1Ptu];r(i]H]sB"j_CZ<>KSr*NA"T$g"X[R2h.uER%E505!USu=n-/dZbd(%<F;)54r<='=_67N/9j>pl%^9g]TQmHM4&bT.QrI_MNU;D@\S=gPFIuYHsNMM]0s)3=fAnP\Dk)Wa;_\VApT4_.@.#.B^qe!nN3=6K7m[ge5<PDmm;l=mU9bThN((7f-A51m0:L;NPY)IQpPW14;,*kFFqSj6gCe#3p?MQDdG^J~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2185
+>>
+stream
+Gau0DgN)%,&:O:Sm%`!c=Ftbjc#GA"NpA[014@9'#9k=J2+]2!BLNqkHk/J7Z=VE\SCF-e'laPM4hE\c$UuatRJf(FLgEg>pU?*K8!=gq^^4[p:2_I,?VadB)0nuAH7>UKG3pZiGOk9s6*N0?HK)H.RjR3LM<h&\rqbc4Re[9`A6Tlo9e&EtM"qfQ@K;@7LH\;/l&<)DctUbJ[49Z6Rf#O:h[I5[!t]kB\=OcO@Z6IlC[h!?&qC&uAf3:Q;M3#t^Wi9<(/JQ3r*aR^g8rDP-4<-<G<R>H]6pW^[8?^G0$F1(P.<!krbJ^I>'sG0L25JhMCWFA;:"u<R_n>NP?#TfI"-iMTbk#bql_Q/V3peIgbXFOQ/K('Jo@"reZp7r.iM"=>64JKP@ffU#l)O"\%'qFQ_drDS>L)ME)nPY=ZUY.1c'MT'lS!Zcof]\h%3o'qL!J[k3@i$_GY!<),I[[Y8Y-.n'hX!2Ds?7SaV=mMGqP+"+N;C+kmq%KpSW3LA1/URVG5M(Kt>fG`&L6H,6m:f*;Caagsaq%%TBuRnDPu,jTJFfg95(O4U;uW+g$FRd4#%QVgQ$mr)"ZT>,[Mji'm!j-C9Eh7+0.U>,o>JRk3.6Iac?9L*\E\A<u^3S/Z&D\6hM/]BFa#0_peE0ruSDk?tGK4hL@9egLmTk)/!ORn:<$V:d?-Bi;Kl'@Y>i"r[G51@RVPB:ckU%^?H$!QhGbGANaD&9ld]G(]ePDS;M:nXd%*/SuM<o-HeBSJ<SP"pB<=_mcI<oTtScCBm&&[[^<R:D^jjJJUfWB+C"H`DslWhOBN"A$i)95aBWle2X&0J6",gcU=/2fN";`e/YoEO7S_8GLiVo/$oLPcH2&[ui!N$P6g]eMposk^SYX/U0iUI>bF;bWGAqX-R&:F&K;\1*#ekd\7q!$_If;m_pKCa[UZ'iRlr#PY*/NY<JP1N4SGcgi23jS>0!-'nQ^W1W0MQr>S&>(7r,aFt+%K6-J7gg76R='"q-W.j\eq,?PGNaROmr330q&[4.-L@=p7V=Dr`L("*FIJ"AV+9-Y6a/Fc(\%Ic;M&hfnRmnRW06q'D+3_=p$k>FlQK*Xij$/Kj9HA4_=9p4J`(&EdI_oZ<hGA$E/of#/7'hXeZrP/ol+/F`,7:@kU/P*a\_1O"'it5Bnn[lGGqg$F+H<Ybai]O0*pPYcf)cL5>MP(TN`a\rN)#H[TOrb=^VnFsId'K84+Qn#&*^Pn\Fg"Bg)+s:\B/f_'iM7(dIu+9\]PdD2TS&4N,G+S>4"U=K7sGU%&'"n3+]l)X3hK)Uep4KQ"H9Hj+4>3<Va&KU>XonDT$&Q\obI7j'kI\R51E$#Xsb6K3S77"?=@jaNLKPo++_i6S2?5XE0bjUj*OYoKL+fI]ts^l1'*#`L%2AU"t8m?efH_7\Or&53\3MP)>p;OKFV9Gk]^d218hR:*7<gD;<[dkfLOikJ1M\cm4Fo(C>51<]'CNd*IV&?BLhLSFc5l\*oZ-Zf>QJcJ^=(_\,Wu<\_I".s5Pj2ZgbO)kP5e3\a.Wc:RaOB)2?LedUgNX8pNi=_(0ot\R%+)mb%,iKri6J[!?B`'<l\d=O^NuRi]&GGV@`P+jZSYO%gSLlf9_=De>2GiW$PI>'5(_0XAIWS"Y9jkf8PK@8HEcpGG^57&QoBb$6TGp;oT+hO1'jhL%,mUnqF,PS@k0S)%p'^FL5CJ=fAOIh_8-R0O5fB5IhNfbOUPel+#95dFK9Q"\jl]X>%ah*5q[r"m8+?:;UC'7u"FP/bmgGNF+4'D)M/7p5@Y<Y@>4/pn]J*9P;ZL!OhfE;9EOpWMQe_,$A^aJ![NSB8Ne_9LfQpLD!8;psldhO:-dh\c8nJ+<bA`MN\#Vmb!,;'V$5/`p(>;Lbo0G:'tUj>d#Gi+]a]CUI#N@0_:XVa+=N$%%k$s-WJ&")fP$7nc\ah(Nm<6)20+<a)0h/rd@U$?P?(/QXgSUssGor;43W*bsj[2<spB_J(m7Xre&Wa*@'MKANqZ1P)H1lpZ(!rt-m_g1bkEK%%i7$!e?%a@h7mI2m(h-0Putc%iF0doQ3hK[NlD/d!YoRgT\S9MmP!DnEW<*1$:Fkm0loAf*OI-aBN/LKH63#-.k#'..6#Xs+om=R[s-45(`]$uBem\5I0T3.>gnZ+CA.fK$feoX8'EHG,?daa`h$o+(~>endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000535 00000 n 
+0000000640 00000 n 
+0000000844 00000 n 
+0000000912 00000 n 
+0000001192 00000 n 
+0000001257 00000 n 
+0000003226 00000 n 
+trailer
+<<
+/ID 
+[<3ee0ecc173c266b6f076af7df57d3ae9><3ee0ecc173c266b6f076af7df57d3ae9>]
+% ReportLab generated PDF document -- digest (opensource)
 
-## 1. Business Impact
-
-The Power BI trading dashboard showed no sales data for 12-14 October 2026.
-Chloe Tan reported this to the team after the trading director asked for a daily revenue figure at the 09:00 standup.
-Finance could not produce the daily revenue report.
-
-**Revenue at risk of misreporting:** approximately Â£1.2M across 3 days (estimated from prior week average).
-
----
-
-## 2. Timeline
-
-| Time (UTC) | Event |
-|------------|-------|
-| 2026-10-12 06:45 | Airflow DAG northpeak_daily_sales shows SUCCESS but dbt_test_gold_models task failed silently (exit code 1 not propagated) |
-| 2026-10-13 06:40 | Same failure repeats - not noticed |
-| 2026-10-14 06:38 | Same failure repeats - not noticed |
-| 2026-10-15 08:47 | Chloe Tan reports missing data to engineering team |
-| 2026-10-15 08:55 | On-call engineer (YOU) picks up incident |
-| 2026-10-15 09:10 | Investigation starts: Airflow logs reviewed |
-| 2026-10-15 09:35 | Root cause identified: dbt test failure not propagating exit code to Airflow |
-| 2026-10-15 10:00 | Fix deployed to DAG (trigger_rule changed, exit code handling fixed) |
-| 2026-10-15 10:15 | Backfill triggered for 3 missing dates |
-| 2026-10-15 14:22 | Backfill complete, data validated, incident resolved |
-
----
-
-## 3. Root Cause Analysis
-
-**Root cause:** The `dbt_test_gold_models` BashOperator was using `bash_command` without `pipefail`, meaning a non-zero exit code from dbt test was swallowed by the shell. Airflow marked the task as SUCCESS because the bash wrapper returned 0.
-
-**Why not detected immediately:** The monitoring dashboard only checked DAG run status (SUCCESS/FAILED), not task-level exit codes. A green DAG run was treated as data-available.
-
-**Contributing factor:** No row count validation after dbt run. If we had checked that fact_sales received at least N rows for the execution date, the failure would have been caught within minutes of the 06:00 run completing.
-
-**Wrong direction trap:** Initial investigation suspected a source system outage (NP Core). The PostgreSQL connection logs were clean. Wasted 20 minutes before pivoting to the Airflow task logs.
-
----
-
-## 4. Resolution
-
-1. Fixed BashOperator bash_command to use `set -e` and `set -o pipefail`
-2. Added `on_failure_callback` to send PagerDuty alert on any task failure
-3. Added post-dbt row count validation task to the DAG
-4. Backfilled 3 missing dates using `airflow dags backfill`
-
----
-
-## 5. Prevention Actions
-
-| Action | Owner | Due Date | Status |
-|--------|-------|----------|--------|
-| Add row count validation task after all dbt runs | Data Platform Team | 2026-10-22 | Done |
-| Add PagerDuty integration to all P1-severity DAG failures | Data Platform Team | 2026-10-22 | Done |
-| Update monitoring dashboard to show task-level status | Data Platform Team | 2026-10-29 | In Progress |
-| Add Great Expectations freshness check post-dbt | Data Platform Team | 2026-10-29 | To Do |
-| Document backfill runbook step in production_runbook.md | Data Platform Team | 2026-10-29 | To Do |
-
----
-
-## 6. Lessons Learned
-
-- **Never trust DAG-level SUCCESS alone.** Always validate data presence, not just execution status.
-- **BashOperator exit code handling is a known footgun.** Use `set -e -o pipefail` in every bash_command.
-- **Monitoring must check data, not process.** A pipeline that runs but produces no data is a failure even if the DAG is green.
-- **The wrong direction trap in investigation:** always check Airflow task logs before assuming source system failure.
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+5503
+%%EOF

@@ -1,0 +1,151 @@
+product_id,sku,product_name,brand,category_l1,category_l2,category_l3,unit_of_measure,pack_size,is_own_brand,supplier_id,rrp,cost_price,vat_rate,is_active,created_at,updated_at
+1,NP-SKU-00001,Kelloggs Fruit 6pk,Unilever,Food,Fresh Produce,Fruit,pack,3.28,True,15,7.66,2.87,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+2,NP-SKU-00002,Warburtons Milk 1kg,Walkers,Food,Dairy,Milk,kg,0.45,False,7,5.39,3.04,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+3,NP-SKU-00003,Walkers Cheese 1kg,Coca-Cola,Food,Dairy,Cheese,kg,1.65,False,13,7.95,2.84,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+4,NP-SKU-00004,Kelloggs Yoghurt 500g,Cadbury,Food,Dairy,Yoghurt,100g,2.09,False,3,1.39,0.64,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+5,NP-SKU-00005,Nestle Beef 6pk,NorthPeak Own,Food,Meat,Beef,each,1.95,False,13,3.64,2.31,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+6,NP-SKU-00006,Walkers Chicken 6pk,McVities,Food,Meat,Chicken,pack,0.57,False,19,1.92,1.17,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+7,NP-SKU-00007,NorthPeak Own Pork 1kg,Procter & Gamble,Food,Meat,Pork,pack,0.99,False,18,7.49,3.86,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+8,NP-SKU-00008,McVities Fresh Fish 1kg,Unilever,Food,Fish,Fresh Fish,each,3.46,False,5,5.13,2.02,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+9,NP-SKU-00009,Warburtons Frozen Fish 4pk,Warburtons,Food,Fish,Frozen Fish,kg,3.42,False,15,3.57,1.45,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+10,NP-SKU-00010,Walkers Bread 6pk,Unilever,Food,Bakery,Bread,pack,2.65,False,8,9.68,4.27,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+11,NP-SKU-00011,Coca-Cola Pastries 4pk,Kelloggs,Food,Bakery,Pastries,each,0.48,True,3,11.4,4.55,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+12,NP-SKU-00012,Walkers Ready Meals,NorthPeak Own,Food,Frozen,Ready Meals,pack,3.42,False,5,9.05,4.47,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+13,NP-SKU-00013,Walkers Ice Cream 500g,Coca-Cola,Food,Frozen,Ice Cream,each,3.12,False,1,11.98,6.76,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+14,NP-SKU-00014,Nestle Coffee 250g,McVities,Drink,Hot Drinks,Coffee,pack,4.83,False,17,9.12,5.66,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+15,NP-SKU-00015,Heinz Tea 4pk,NorthPeak Own,Drink,Hot Drinks,Tea,pack,2.53,True,4,4.72,2.13,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+16,NP-SKU-00016,Kelloggs Cola 6pk,Unilever,Drink,Soft Drinks,Cola,pack,1.54,True,19,10.06,4.71,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+17,NP-SKU-00017,Cadbury Juice 250g,PepsiCo,Drink,Soft Drinks,Juice,100g,4.26,True,1,11.18,5.98,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+18,NP-SKU-00018,NorthPeak Own Wine 4pk,Warburtons,Drink,Alcohol,Wine,kg,2.07,True,14,4.57,2.27,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+19,NP-SKU-00019,Heinz Beer each,Kelloggs,Drink,Alcohol,Beer,pack,0.13,False,9,6.41,2.68,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+20,NP-SKU-00020,Coca-Cola Detergent 1kg,Walkers,Household,Cleaning,Detergent,litre,0.63,False,15,3.94,1.57,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+21,NP-SKU-00021,Procter & Gamble Bleach 1L,Kelloggs,Household,Cleaning,Bleach,kg,1.5,True,14,5.49,3.15,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+22,NP-SKU-00022,Nestle Toilet Roll,Cadbury,Household,Paper,Toilet Roll,litre,0.68,False,16,2.34,1.38,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+23,NP-SKU-00023,Coca-Cola Kitchen Roll each,Heinz,Household,Paper,Kitchen Roll,each,4.79,False,5,4.24,1.68,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+24,NP-SKU-00024,Nestle Supplements 250g,Cadbury,Health,Vitamins,Supplements,litre,2.21,False,1,9.32,4.48,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+25,NP-SKU-00025,Coca-Cola Shampoo 1L,McVities,Health,Personal Care,Shampoo,kg,3.67,True,9,6.09,3.53,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+26,NP-SKU-00026,Nestle Vegetables each,Nestle,Food,Fresh Produce,Vegetables,pack,3.56,False,17,11.93,6.36,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+27,NP-SKU-00027,Cadbury Fruit 1kg,Nestle,Food,Fresh Produce,Fruit,each,0.75,True,7,10.33,6.49,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+28,NP-SKU-00028,Kelloggs Milk 250g,Coca-Cola,Food,Dairy,Milk,pack,2.67,False,8,7.59,3.16,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+29,NP-SKU-00029,Coca-Cola Cheese 250g,Unilever,Food,Dairy,Cheese,each,1.42,False,12,1.21,0.68,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+30,NP-SKU-00030,Heinz Yoghurt 250g,NorthPeak Own,Food,Dairy,Yoghurt,each,3.34,False,10,10.79,5.3,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+31,NP-SKU-00031,Heinz Beef 6pk,PepsiCo,Food,Meat,Beef,litre,1.74,True,1,1.66,0.92,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+32,NP-SKU-00032,Procter & Gamble Chicken 4pk,Warburtons,Food,Meat,Chicken,100g,2.69,False,9,2.0,0.83,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+33,NP-SKU-00033,Heinz Pork 500g,NorthPeak Own,Food,Meat,Pork,100g,4.84,False,7,10.7,4.36,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+34,NP-SKU-00034,Walkers Fresh Fish 4pk,Unilever,Food,Fish,Fresh Fish,pack,4.95,True,5,1.63,0.59,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+35,NP-SKU-00035,Unilever Frozen Fish 4pk,Procter & Gamble,Food,Fish,Frozen Fish,pack,3.19,True,14,6.83,2.53,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+36,NP-SKU-00036,Walkers Bread 250g,Heinz,Food,Bakery,Bread,100g,1.44,False,10,11.21,4.08,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+37,NP-SKU-00037,Warburtons Pastries 1L,Warburtons,Food,Bakery,Pastries,pack,2.53,False,17,9.64,6.18,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+38,NP-SKU-00038,Coca-Cola Ready Meals each,Coca-Cola,Food,Frozen,Ready Meals,100g,1.43,True,6,9.13,4.76,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+39,NP-SKU-00039,Walkers Ice Cream,Walkers,Food,Frozen,Ice Cream,100g,1.37,False,10,0.6,0.34,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+40,NP-SKU-00040,NorthPeak Own Coffee 1L,Unilever,Drink,Hot Drinks,Coffee,each,3.23,False,9,2.47,1.55,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+41,NP-SKU-00041,Cadbury Tea 1L,Nestle,Drink,Hot Drinks,Tea,100g,0.67,False,20,9.59,6.15,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+42,NP-SKU-00042,Walkers Cola 6pk,Warburtons,Drink,Soft Drinks,Cola,kg,2.1,False,11,11.38,7.35,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+43,NP-SKU-00043,Procter & Gamble Juice 1L,Warburtons,Drink,Soft Drinks,Juice,litre,0.97,False,18,0.62,0.34,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+44,NP-SKU-00044,McVities Wine 500g,Warburtons,Drink,Alcohol,Wine,pack,4.73,False,20,11.3,5.82,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+45,NP-SKU-00045,Unilever Beer 1L,McVities,Drink,Alcohol,Beer,pack,0.86,True,14,3.04,1.4,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+46,NP-SKU-00046,Heinz Detergent,Heinz,Household,Cleaning,Detergent,kg,1.03,False,6,1.58,0.86,0.2,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+47,NP-SKU-00047,Heinz Bleach each,Cadbury,Household,Cleaning,Bleach,100g,1.02,True,14,2.37,1.0,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+48,NP-SKU-00048,Kelloggs Toilet Roll 1kg,Warburtons,Household,Paper,Toilet Roll,each,3.06,False,1,11.66,4.47,0.2,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+49,NP-SKU-00049,NorthPeak Own Kitchen Roll 1kg,Nestle,Household,Paper,Kitchen Roll,each,1.41,False,20,10.05,3.56,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+50,NP-SKU-00050,Kelloggs Supplements 4pk,Warburtons,Health,Vitamins,Supplements,each,1.09,False,19,11.51,7.11,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+51,NP-SKU-00051,PepsiCo Shampoo 1kg,Nestle,Health,Personal Care,Shampoo,each,2.76,False,18,4.03,1.56,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+52,NP-SKU-00052,Unilever Vegetables 500g,Walkers,Food,Fresh Produce,Vegetables,pack,0.79,False,1,1.68,0.7,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+53,NP-SKU-00053,Unilever Fruit 1L,Cadbury,Food,Fresh Produce,Fruit,pack,3.47,False,4,4.56,2.27,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+54,NP-SKU-00054,Unilever Milk 4pk,Kelloggs,Food,Dairy,Milk,100g,1.74,False,3,3.08,1.91,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+55,NP-SKU-00055,Walkers Cheese 4pk,McVities,Food,Dairy,Cheese,kg,3.43,True,10,2.55,1.37,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+56,NP-SKU-00056,Unilever Yoghurt,Cadbury,Food,Dairy,Yoghurt,litre,4.67,False,3,10.57,6.2,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+57,NP-SKU-00057,Cadbury Beef 1kg,Procter & Gamble,Food,Meat,Beef,kg,2.01,False,16,11.75,6.98,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+58,NP-SKU-00058,Warburtons Chicken 6pk,Heinz,Food,Meat,Chicken,each,1.68,True,13,5.42,2.47,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+59,NP-SKU-00059,Coca-Cola Pork 4pk,Heinz,Food,Meat,Pork,kg,1.98,False,18,6.03,3.08,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+60,NP-SKU-00060,Coca-Cola Fresh Fish 500g,McVities,Food,Fish,Fresh Fish,pack,2.68,False,8,9.95,5.58,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+61,NP-SKU-00061,NorthPeak Own Frozen Fish 4pk,Walkers,Food,Fish,Frozen Fish,pack,4.79,False,2,0.53,0.33,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+62,NP-SKU-00062,Heinz Bread 6pk,PepsiCo,Food,Bakery,Bread,kg,4.19,False,14,10.27,4.34,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+63,NP-SKU-00063,Heinz Pastries 500g,Warburtons,Food,Bakery,Pastries,kg,1.95,True,14,1.14,0.53,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+64,NP-SKU-00064,Kelloggs Ready Meals,McVities,Food,Frozen,Ready Meals,kg,0.25,False,3,8.12,3.44,0.0,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+65,NP-SKU-00065,Coca-Cola Ice Cream 1kg,Heinz,Food,Frozen,Ice Cream,pack,3.74,False,10,10.06,4.94,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+66,NP-SKU-00066,Cadbury Coffee 250g,Unilever,Drink,Hot Drinks,Coffee,each,0.86,False,2,5.61,2.98,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+67,NP-SKU-00067,Coca-Cola Tea each,Cadbury,Drink,Hot Drinks,Tea,pack,2.82,False,19,2.34,1.17,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+68,NP-SKU-00068,Heinz Cola 6pk,Kelloggs,Drink,Soft Drinks,Cola,100g,1.95,False,7,5.37,2.52,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+69,NP-SKU-00069,Warburtons Juice 500g,Warburtons,Drink,Soft Drinks,Juice,pack,2.44,False,13,5.01,3.0,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+70,NP-SKU-00070,Cadbury Wine each,Nestle,Drink,Alcohol,Wine,litre,0.63,True,20,9.74,5.68,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+71,NP-SKU-00071,Heinz Beer 500g,Kelloggs,Drink,Alcohol,Beer,kg,3.03,False,10,3.25,1.32,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+72,NP-SKU-00072,Nestle Detergent 6pk,Kelloggs,Household,Cleaning,Detergent,100g,2.87,False,16,11.19,4.07,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+73,NP-SKU-00073,NorthPeak Own Bleach 4pk,Unilever,Household,Cleaning,Bleach,pack,2.55,False,13,11.35,6.44,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+74,NP-SKU-00074,Kelloggs Toilet Roll 4pk,Coca-Cola,Household,Paper,Toilet Roll,100g,0.59,False,5,8.58,3.06,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+75,NP-SKU-00075,NorthPeak Own Kitchen Roll 6pk,Heinz,Household,Paper,Kitchen Roll,kg,3.44,True,3,5.98,3.8,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+76,NP-SKU-00076,Cadbury Supplements 1kg,Warburtons,Health,Vitamins,Supplements,kg,4.97,False,20,2.98,1.63,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+77,NP-SKU-00077,Heinz Shampoo 4pk,Unilever,Health,Personal Care,Shampoo,litre,3.16,False,2,4.43,2.73,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+78,NP-SKU-00078,Nestle Vegetables 500g,Heinz,Food,Fresh Produce,Vegetables,100g,3.18,False,1,4.96,1.95,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+79,NP-SKU-00079,Kelloggs Fruit,Kelloggs,Food,Fresh Produce,Fruit,pack,1.64,False,6,6.79,2.52,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+80,NP-SKU-00080,Kelloggs Milk 1kg,Warburtons,Food,Dairy,Milk,pack,1.36,False,9,4.56,2.64,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+81,NP-SKU-00081,Kelloggs Cheese,NorthPeak Own,Food,Dairy,Cheese,litre,4.31,False,20,11.13,6.96,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+82,NP-SKU-00082,McVities Yoghurt 4pk,Procter & Gamble,Food,Dairy,Yoghurt,each,3.44,False,9,4.72,2.89,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+83,NP-SKU-00083,Cadbury Beef 250g,Warburtons,Food,Meat,Beef,kg,3.53,False,5,0.99,0.6,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+84,NP-SKU-00084,Coca-Cola Chicken 500g,Nestle,Food,Meat,Chicken,pack,4.38,False,12,2.32,1.14,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+85,NP-SKU-00085,PepsiCo Pork 500g,Kelloggs,Food,Meat,Pork,kg,3.69,False,13,10.85,6.3,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+86,NP-SKU-00086,Procter & Gamble Fresh Fish 4pk,McVities,Food,Fish,Fresh Fish,pack,1.14,False,4,4.28,1.86,0.0,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+87,NP-SKU-00087,PepsiCo Frozen Fish 1kg,Cadbury,Food,Fish,Frozen Fish,kg,1.67,True,20,2.29,1.33,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+88,NP-SKU-00088,Coca-Cola Bread,Nestle,Food,Bakery,Bread,each,1.14,True,14,9.8,4.22,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+89,NP-SKU-00089,Kelloggs Pastries 6pk,Coca-Cola,Food,Bakery,Pastries,each,1.56,False,14,1.46,0.74,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+90,NP-SKU-00090,NorthPeak Own Ready Meals 500g,Coca-Cola,Food,Frozen,Ready Meals,litre,4.82,False,7,3.48,1.58,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+91,NP-SKU-00091,Warburtons Ice Cream 1kg,Warburtons,Food,Frozen,Ice Cream,pack,1.84,False,13,5.97,3.56,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+92,NP-SKU-00092,Nestle Coffee 500g,Warburtons,Drink,Hot Drinks,Coffee,100g,3.12,False,11,10.78,3.82,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+93,NP-SKU-00093,PepsiCo Tea 4pk,Kelloggs,Drink,Hot Drinks,Tea,pack,1.39,False,15,11.24,7.11,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+94,NP-SKU-00094,Cadbury Cola 500g,NorthPeak Own,Drink,Soft Drinks,Cola,kg,3.75,True,18,7.79,4.54,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+95,NP-SKU-00095,Nestle Juice 1L,Cadbury,Drink,Soft Drinks,Juice,100g,4.78,False,12,2.99,1.06,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+96,NP-SKU-00096,Kelloggs Wine,Cadbury,Drink,Alcohol,Wine,pack,2.13,False,18,6.27,3.0,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+97,NP-SKU-00097,Heinz Beer,Coca-Cola,Drink,Alcohol,Beer,litre,0.97,False,18,4.36,2.1,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+98,NP-SKU-00098,Cadbury Detergent each,Cadbury,Household,Cleaning,Detergent,litre,3.54,False,4,8.09,5.25,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+99,NP-SKU-00099,Cadbury Bleach 250g,McVities,Household,Cleaning,Bleach,pack,0.61,False,20,1.69,1.06,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+100,NP-SKU-00100,McVities Toilet Roll 250g,Cadbury,Household,Paper,Toilet Roll,litre,4.27,True,15,5.61,2.89,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+101,NP-SKU-00101,Kelloggs Kitchen Roll 4pk,PepsiCo,Household,Paper,Kitchen Roll,pack,4.55,False,13,10.35,3.65,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+102,NP-SKU-00102,Unilever Supplements 6pk,Cadbury,Health,Vitamins,Supplements,litre,1.61,False,14,3.08,1.7,0.2,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+103,NP-SKU-00103,NorthPeak Own Shampoo 250g,NorthPeak Own,Health,Personal Care,Shampoo,kg,3.97,False,17,10.95,6.53,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+104,NP-SKU-00104,McVities Vegetables each,Nestle,Food,Fresh Produce,Vegetables,100g,4.87,True,13,4.35,2.6,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+105,NP-SKU-00105,Heinz Fruit each,Warburtons,Food,Fresh Produce,Fruit,kg,2.08,False,6,7.15,3.44,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+106,NP-SKU-00106,Walkers Milk 500g,Cadbury,Food,Dairy,Milk,100g,3.94,False,9,9.71,5.84,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+107,NP-SKU-00107,Kelloggs Cheese 500g,NorthPeak Own,Food,Dairy,Cheese,pack,0.16,False,5,4.21,1.51,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+108,NP-SKU-00108,Kelloggs Yoghurt each,NorthPeak Own,Food,Dairy,Yoghurt,kg,4.92,False,12,11.09,4.5,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+109,NP-SKU-00109,Nestle Beef 1L,Warburtons,Food,Meat,Beef,pack,3.87,False,9,3.05,1.14,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+110,NP-SKU-00110,McVities Chicken 500g,Kelloggs,Food,Meat,Chicken,pack,4.64,True,5,0.77,0.33,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+111,NP-SKU-00111,PepsiCo Pork 4pk,Nestle,Food,Meat,Pork,pack,0.59,False,14,1.57,0.58,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+112,NP-SKU-00112,Cadbury Fresh Fish each,Coca-Cola,Food,Fish,Fresh Fish,litre,3.2,False,6,1.38,0.56,0.0,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+113,NP-SKU-00113,McVities Frozen Fish 250g,Kelloggs,Food,Fish,Frozen Fish,litre,4.97,False,20,2.55,1.35,0.0,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+114,NP-SKU-00114,Unilever Bread 500g,Nestle,Food,Bakery,Bread,100g,0.24,True,17,6.5,3.76,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+115,NP-SKU-00115,Nestle Pastries 250g,Procter & Gamble,Food,Bakery,Pastries,kg,1.18,False,5,4.7,2.02,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+116,NP-SKU-00116,Procter & Gamble Ready Meals 6pk,PepsiCo,Food,Frozen,Ready Meals,pack,2.24,False,7,11.46,4.87,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+117,NP-SKU-00117,Warburtons Ice Cream 6pk,Coca-Cola,Food,Frozen,Ice Cream,each,2.96,False,10,10.23,4.09,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+118,NP-SKU-00118,Coca-Cola Coffee,Coca-Cola,Drink,Hot Drinks,Coffee,100g,3.76,False,20,8.8,3.36,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+119,NP-SKU-00119,Procter & Gamble Tea 4pk,Cadbury,Drink,Hot Drinks,Tea,each,2.3,False,17,2.8,1.19,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+120,NP-SKU-00120,Cadbury Cola 4pk,Coca-Cola,Drink,Soft Drinks,Cola,each,0.66,False,14,7.44,4.37,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+121,NP-SKU-00121,Cadbury Juice 4pk,Procter & Gamble,Drink,Soft Drinks,Juice,kg,3.92,True,11,1.34,0.75,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+122,NP-SKU-00122,McVities Wine 4pk,Nestle,Drink,Alcohol,Wine,100g,0.42,False,7,2.96,1.5,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+123,NP-SKU-00123,McVities Beer 500g,McVities,Drink,Alcohol,Beer,pack,3.44,False,11,3.7,1.51,0.2,False,2020-01-01 00:00:00,2026-01-01 00:00:00
+124,NP-SKU-00124,NorthPeak Own Detergent 6pk,Coca-Cola,Household,Cleaning,Detergent,each,0.71,True,11,6.18,3.26,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+125,NP-SKU-00125,NorthPeak Own Bleach 250g,PepsiCo,Household,Cleaning,Bleach,litre,0.74,False,2,0.74,0.46,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+126,NP-SKU-00126,Cadbury Toilet Roll 250g,Kelloggs,Household,Paper,Toilet Roll,pack,0.57,False,10,0.95,0.41,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+127,NP-SKU-00127,Walkers Kitchen Roll 4pk,PepsiCo,Household,Paper,Kitchen Roll,100g,0.33,False,15,5.1,2.54,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+128,NP-SKU-00128,Procter & Gamble Supplements 500g,NorthPeak Own,Health,Vitamins,Supplements,kg,0.33,True,4,10.97,7.11,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+129,NP-SKU-00129,Nestle Shampoo 1kg,Kelloggs,Health,Personal Care,Shampoo,kg,3.65,False,18,8.83,5.71,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+130,NP-SKU-00130,Unilever Vegetables 250g,Kelloggs,Food,Fresh Produce,Vegetables,each,4.74,True,11,10.48,5.83,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+131,NP-SKU-00131,Warburtons Fruit 1kg,Heinz,Food,Fresh Produce,Fruit,100g,2.36,True,5,4.86,2.8,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+132,NP-SKU-00132,Coca-Cola Milk,Cadbury,Food,Dairy,Milk,each,2.66,True,16,11.61,6.37,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+133,NP-SKU-00133,Warburtons Cheese,Nestle,Food,Dairy,Cheese,each,1.39,False,3,4.2,1.91,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+134,NP-SKU-00134,Cadbury Yoghurt 1L,Warburtons,Food,Dairy,Yoghurt,each,0.47,False,7,3.29,1.16,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+135,NP-SKU-00135,Nestle Beef,Kelloggs,Food,Meat,Beef,litre,1.12,False,17,9.91,5.0,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+136,NP-SKU-00136,Warburtons Chicken,Cadbury,Food,Meat,Chicken,kg,4.25,True,5,11.36,4.72,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+137,NP-SKU-00137,McVities Pork 1L,Coca-Cola,Food,Meat,Pork,kg,0.44,False,10,11.71,7.44,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+138,NP-SKU-00138,PepsiCo Fresh Fish 500g,Warburtons,Food,Fish,Fresh Fish,each,1.28,False,6,1.67,0.72,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+139,NP-SKU-00139,Procter & Gamble Frozen Fish 6pk,Kelloggs,Food,Fish,Frozen Fish,100g,0.51,False,5,6.61,3.1,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+140,NP-SKU-00140,PepsiCo Bread 6pk,Procter & Gamble,Food,Bakery,Bread,each,0.34,False,14,4.34,1.77,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+141,NP-SKU-00141,Unilever Pastries,Walkers,Food,Bakery,Pastries,pack,0.64,True,8,2.53,1.61,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+142,NP-SKU-00142,NorthPeak Own Ready Meals 6pk,Nestle,Food,Frozen,Ready Meals,each,2.71,False,20,1.11,0.62,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+143,NP-SKU-00143,Nestle Ice Cream 6pk,PepsiCo,Food,Frozen,Ice Cream,kg,0.94,True,10,5.02,2.82,0.0,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+144,NP-SKU-00144,Heinz Coffee,Warburtons,Drink,Hot Drinks,Coffee,litre,4.28,False,6,0.54,0.24,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+145,NP-SKU-00145,PepsiCo Tea 1kg,NorthPeak Own,Drink,Hot Drinks,Tea,pack,2.2,True,9,2.65,1.63,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+146,NP-SKU-00146,NorthPeak Own Cola 4pk,PepsiCo,Drink,Soft Drinks,Cola,100g,0.1,False,16,9.24,3.54,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+147,NP-SKU-00147,Unilever Juice 1L,Walkers,Drink,Soft Drinks,Juice,100g,0.92,True,4,7.02,2.67,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+148,NP-SKU-00148,PepsiCo Wine 4pk,Walkers,Drink,Alcohol,Wine,litre,3.35,False,15,4.36,1.54,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+149,NP-SKU-00149,Walkers Beer,Kelloggs,Drink,Alcohol,Beer,litre,3.46,False,1,8.67,3.42,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00
+150,NP-SKU-00150,Heinz Detergent 4pk,PepsiCo,Household,Cleaning,Detergent,each,1.3,False,14,3.03,1.39,0.2,True,2020-01-01 00:00:00,2026-01-01 00:00:00

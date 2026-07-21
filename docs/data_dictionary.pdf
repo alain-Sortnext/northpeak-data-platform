@@ -1,76 +1,99 @@
-# NorthPeak Data Platform - Data Dictionary
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-**Version:** 1.0.0 | **Last updated:** 14 July 2026
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
----
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260721211713+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260721211713+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1699
+>>
+stream
+GauI7>Ar4d'S,*:($?kUNP`Ui^/rGZ!Kn&rV;S^b.2$[F,]VjKCt"1i5CUoe%[R_cNn[ha@2kj/Hun]X"U.+iIX<6RW<:1R'IX(H#,k!JE!F[1)@m9\8EpC6Ch?U"%8*R9fJj?_+'eDA5D%\(%QL9>bJ=SaU_1^G+_VW;Q=X9F'5VQb-14e]8kdEk5N+-t@2'UK8cql',(McMFpLt*J4K4EBo&K6pcbEVMJ=q0X5\[%<W_2@f2K-I-KT2ffMLXU;<3#IMHhsl>Hn4oC5jWoT@F4Y<a:Q7'B0rJ:j)AajsX!r].nNuU$LhnFF>h:j2ar]+2I[QcCpWc$[s/XpQt:CfX$;iNDN7tq"<g/4[4GkN='iBNA[d\@+hTbj1roXi\Z>>S+-;O<$=<1bu/;o2V%p?]5Y?3UXJ<.U+HYCbll:p4O&uIULXoOPL#`^3=8XA$&[VuEQs'(jfh;<DU.GB@l1\t"A<,01YuH%@2[#3's2jXk[)c5Zs:DRM,=POX`SeUR>V9S0S1"GR\f;nf'obF(=QZ3^53iIhF,YrPgEBd6IE88!=Y0j)Ulk5F:0NKUKi=d"=h$QrZX6Ol#*D5*<"kNE0iZj8&TFK_$JO;e?IJ$5i#Jm!XQlGNckNAFNmjJ:o1%_R<sVPMGOI5Nm)d3n6-Hf.%,@#b%G]T8*>5g;)aIdK^B2SVinn3Mtrs;'*jFL68s(R$-1LO?DO1&(r\M]i2OTSBYf"Y[u03[kHqdu1:a:3?+Er&bb*p!q]i"_hOEG'Tm<rl4T7$0r=BVRh",)'AVf.:-Tiim_-+O]-_4'#a]28>Y!0LQFbXVYbs0'Yh"m%$CU?,P+Y$Z$6uS4LEEGMBUW^KHI6-S#-HF4<+BemK>W%_0\!TK6Z)4ur264/e,:8/k>EnO5d9U@G`5s27l+.Ll;:jP1"+,60'_,ScaK3>$IPd5r3J'3tr!:X$Fa3X/'a169WIh2&NfQ<Jh-fB"nKQ,P8VauN^N7r$aq8ukpH4GA%*hYhE6YYJF-uim[i/S(<370$M7X1AP`+2Q.?A$9=t>ph-/.a6*]`WeBF<dK+8n$<Z[:1]9`<lsQA6s.[!!S:<f):f8%1TJc^VI3`D1p8Rl]rq=QCJeiPO`%q<a24:t2YgeB^."EL6mAU;s9Wm4d85`$T.Eg)<BE[[l8-jOd1J?\h\+PZZ@*H!?p[b3J4uWi0&S$fdja\4MF3BY$`t?od^$lo[A6IWG+T!k5$jPPrg]<b6TJRK#U=<>DjkR\(>l1)"T*s4nEU=`uB_\VK]>kHEt&*L^lDFo&(#4;&H_?EZEoSpQa49Nm?)]3fA1l)udt;hk*mS\pUIShI`=,B@`,2SG^.Y3hRZI.h,UZ9pY:3%)3nk'iI8JMT;Ja\t.@0I%Z*]6ePWc@96r+Pp.U=KU]N)r`&=rRTQ;r]e(KS:-t;gC@6afglR-X_nqJ20?IN_r7lqXV*:h(Ep=2nm?CDK;t9#?94Y;e#>Tl7/Ieq)1Q#4U3=6&8\+0C@?ohDSF+hWIF@RNGG>$\nf(=Ho)iFn)qPT9fG!0km/Z,bnM^g+iiH<:829B]9LGW[K3Fude+11-[IC1-pb0(meC9=lZgtdh2&2i@<k_X)I&-S_+"pUL#lNX^\F>p\D2"tAgh:m,?<qXkpmh>C_OX7b;KW@`g=oQ@_n4[51F\cnU,DRRV9WI2\=A"q0f(Zc"^)]K8c~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1587
+>>
+stream
+GauHL>Ar4d'Ro4HSB#`Z\/sP@dQUKFV%&)8:8:FDXGK)j)gd="9dingr15VGaDOOR=1^qYZ$eatRr?#$(C97"+k?TP#P\kIqZ-_,5WB!XBblAgcjs@<>@_[:(n0J(4os9?2<$\]^5%dBlEOU$E!11ue:oZ\#5!-"WR3=>Te!EkcJ]APm>Bk:,"bnOj#[O]626r?pD89bnnGWDICAmjj0M[rN_dQ23mW%VPTj`q8s:YTU,B^K@\`)aiTf^6hjGksK'PU:QAgHXkp#4G4+.JpZiIhcZ<H<#dM1o&DKEh@8?t7>N5o[1^3"tpa%gT#iE3SXn9Xf5dl)"IQF'bGQlkkT?;*j6O=V1Y/5`9_6Zmd_.Fb:eZNha'c5>XH9-ROh)Frie/F8=nq#*[e3NK5h,L_fA/Flf\8s[uDju1f`'/ob=;Sc.#,^Mo=1gR@;jU@_SasH&.-)1fQ\P*AV1)@/:;VZi3iAq>1b6GDYH+%A"@c1t_hV``RZXJJET3@\="R$n?SnT.X"_nUpYTOdkGVql!Q@hPO^5!LBbg%E>M<9'^H2j2*l,7el)jmd?'DiLHrFg^;ctsdXBssq/^4Boq*Tra7!+K!pk>gh,'NkL(FGmF2l!;;d[o^B=?-T\qq^aka,mOO*B+Whf*7,,Kno_l`'%aDDJ)N2-pe2gk6shs>AYI@_>Xen!#LBhR]`12>g,>LV5+@=@Rs7Zj=YUfMZgCBtD_7efi6DJu]R>Td<U`Y)!P/b%?#PVgkQXM?YWqIZC+3i,Q5Ff\W4<U&9W#=)P1@BXGt(^`LU=E5l\K3C)+jp$RR^.#)RKhK$.kBePH10E/R2%\V4pW)?3+%hf3lHp5,arD/ZYk.+[NrW!_5E)?m&uTb<Oo8*oh7D<st5>=QQA-Bbo*$XLZK>PO!3Q(j/hZqVA*G5*Vci@/+/6$OCGtB[4cP?p)>pVgMbmB18mS&$N[+%n$B#D7Fg^3G7#Z82,5_]>k\G1T=gb/gfVj1g^?JgK<@$f[?kV7OsVlZA9?_S37AgK:`PRVQ/EWf/T8-9WT1Lh*%C>Z"DAT]to1q2jd]+R&5)AZ8!q8F0LNaDh*NDEGXsRJUTHN`PQ&l?ELO#A]jJ6dcP?p,Z](NJRO9PMotGAX(#Hg@JLBnMqIOCK>C>ro0anpJVnmiR^5W.74cnf=]<*?C8REjkLod*heV=t_fD6l4QqMZfmq$MkGiQK.H5\SA$Zl]Q!OA?eG?#/*O$7HF_e754^g]C@5(MXQ,MegH`[CEWd01X<c/at0>28*>0F^AY9Aj"mh>Qc,i::eX4@e7`g![3X@W-h?44<_[RhZ?PsT@A@`f9(#&l,LOLfad*q:1Bp?#!;FJJ]A[[>C+@VJRR/:#QjXAXmc(&Oi_;-+!^gJl'%KTf"t=F$m?\@XD9d!KnJ,t6#blpg;6#^_l7?q.K$HSn[mUdYt*5#5`rV1]d;fi"mZ#!(edQ%U>en;=r*7MiI?R>mKflUF0ITgAg4P91E,]OXq=:k8:58`T]40<c#2mh"CD"W-9?"%kJT.4h7!o#G+S./Z-n/&e9(.e2tsS/Gg%n*hYr5H39&&DVl/iHVu5%B[AG@skUf~>endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000450 00000 n 
+0000000654 00000 n 
+0000000858 00000 n 
+0000000926 00000 n 
+0000001206 00000 n 
+0000001271 00000 n 
+0000003062 00000 n 
+trailer
+<<
+/ID 
+[<3e2cfef36bd0083020e186f79c35895a><3e2cfef36bd0083020e186f79c35895a>]
+% ReportLab generated PDF document -- digest (opensource)
 
-## Bronze Layer Tables
-
-### bronze.np_core_orders
-| Column | Type | Source | Notes |
-|--------|------|--------|-------|
-| order_id | INTEGER | np_core.orders | Primary key |
-| order_ref | VARCHAR(30) | np_core.orders | Format: NP-YYYY-NNNNNNN |
-| customer_id | INTEGER | np_core.orders | NULLABLE - 4.1% null (pre-2018) |
-| store_id | INTEGER | np_core.orders | Always populated |
-| order_channel | VARCHAR(20) | np_core.orders | in_store, online, click_collect |
-| total_amount | NUMERIC(10,2) | np_core.orders | Gross GBP before discount |
-| payment_reference | VARCHAR(100) | np_core.orders | CONTAINS PII - mask in Silver |
-| _bronze_ingested_at | TIMESTAMP | Pipeline | When Bronze write completed |
-| _bronze_ingestion_date | DATE | Pipeline | Partition key |
-
-### bronze.sl_movements (SupplyLink DC movements)
-| Column | Type | Source | Notes |
-|--------|------|--------|-------|
-| movement_id | INTEGER | SupplyLink | Primary key |
-| dc_code | VARCHAR(20) | SupplyLink | DC-BHAM, DC-LEEDS etc |
-| sku | VARCHAR(50) | SupplyLink | Links to np_core.products.sku |
-| movement_type | VARCHAR(30) | SupplyLink | RCT=receipt, TRF=transfer, ADJ=adjustment |
-| movement_date | VARCHAR(20) | SupplyLink | MIXED FORMAT - YYYY-MM-DD or DD/MM/YYYY |
-| timezone | VARCHAR(5) | SupplyLink | MIXED UTC/BST - normalise in Silver |
-| reached_epos | VARCHAR(1) | SupplyLink | Y or NULL. NULL = silent failure (14% of records) |
-
----
-
-## Silver Layer Tables
-
-### silver.orders
-All Bronze orders columns PLUS:
-| Column | Type | Notes |
-|--------|------|-------|
-| customer_id_is_unknown | BOOLEAN | TRUE when original customer_id was null |
-| payment_reference | VARCHAR(64) | SHA-256 hash of original (PII removed) |
-| _silver_cleansed_at | TIMESTAMP | When Silver write completed |
-| _silver_version | VARCHAR(10) | Pipeline version that created this record |
-
----
-
-## Gold Layer Tables
-
-### marts.fact_sales
-| Column | Type | Notes |
-|--------|------|-------|
-| sales_key | VARCHAR(64) | Surrogate key - SHA-256 of order_id |
-| order_id | INTEGER | Natural key from NP Core |
-| customer_key | INTEGER | FK to dim_customer. -1 = UNKNOWN |
-| store_key | INTEGER | FK to dim_store. Never null |
-| date_key | INTEGER | FK to dim_date. Format: YYYYMMDD |
-| total_amount | NUMERIC(10,2) | Gross GBP |
-| net_amount | NUMERIC(10,2) | total_amount minus discount_amount |
-| order_channel | VARCHAR(20) | Degenerate dimension |
-| loyalty_points_earned | INTEGER | From NP Core |
-
----
-
-## SupplyLink Column Shorthand Glossary
-
-| Code | Full Name | Description |
-|------|-----------|-------------|
-| RCT | Receipt | Stock received from supplier at DC |
-| TRF | Transfer | Stock moved between DCs |
-| ADJ | Adjustment | Manual inventory correction (can be negative) |
-| WOF | Write-off | Damaged/expired stock removed |
-| RTN | Return | Customer return processed at DC |
-| IS_CONF | is_confirmed | Warehouse manager sign-off flag |
-| DC_REF | DC Reference | Internal DC tracking number (not supplier ref) |
-| MVT_TYPE | Movement Type | See above codes |
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+4741
+%%EOF

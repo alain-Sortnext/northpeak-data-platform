@@ -1,0 +1,21 @@
+supplier_id,supplier_code,supplier_name,country,contact_email,payment_terms,is_own_brand,is_active,created_at
+1,SUP001,Greenvale Farms Ltd,UK,orders@greenvalefar.co.uk,30,False,True,2020-01-01 00:00:00
+2,SUP002,Meridian Dairy Co,Netherlands,orders@meridiandair.co.uk,45,False,True,2020-01-01 00:00:00
+3,SUP003,Atlantic Fish Suppliers,UK,orders@atlanticfish.co.uk,14,False,True,2020-01-01 00:00:00
+4,SUP004,Highland Meats,Netherlands,orders@highlandmeat.co.uk,30,False,True,2020-01-01 00:00:00
+5,SUP005,SunFresh Produce,Netherlands,orders@sunfreshprod.co.uk,30,False,True,2020-01-01 00:00:00
+6,SUP006,Baker Street Bakeries,UK,orders@bakerstreetb.co.uk,30,False,True,2020-01-01 00:00:00
+7,SUP007,Clearwater Beverages,UK,orders@clearwaterbe.co.uk,30,False,True,2020-01-01 00:00:00
+8,SUP008,Peak Organics,UK,orders@peakorganics.co.uk,30,False,True,2020-01-01 00:00:00
+9,SUP009,Northland Poultry,UK,orders@northlandpou.co.uk,30,False,True,2020-01-01 00:00:00
+10,SUP010,Eden Valley Wines,Spain,orders@edenvalleywi.co.uk,45,False,True,2020-01-01 00:00:00
+11,SUP011,Bristol Cheesemakers,France,orders@bristolchees.co.uk,30,False,True,2020-01-01 00:00:00
+12,SUP012,Yorkshire Confectionery,Netherlands,orders@yorkshirenfe.co.uk,60,False,True,2020-01-01 00:00:00
+13,SUP013,Coastal Seafoods,Netherlands,orders@astalseafood.co.uk,14,False,True,2020-01-01 00:00:00
+14,SUP014,Alpine Frozen Foods,France,orders@alpinefrozen.co.uk,45,False,True,2020-01-01 00:00:00
+15,SUP015,Sovereign Packaging,UK,orders@sovereignpac.co.uk,60,False,True,2020-01-01 00:00:00
+16,SUP016,NorthPeak Own Brand,UK,orders@northpeakown.co.uk,30,True,True,2020-01-01 00:00:00
+17,SUP017,Metro Logistics,UK,orders@metrologisti.co.uk,14,False,True,2020-01-01 00:00:00
+18,SUP018,Fresh Direct Wholesale,UK,orders@freshdirectw.co.uk,60,False,True,2020-01-01 00:00:00
+19,SUP019,GreenLeaf Organics,Netherlands,orders@greenleaforg.co.uk,30,False,True,2020-01-01 00:00:00
+20,SUP020,Heritage Butchers,UK,orders@heritagebutc.co.uk,30,False,True,2020-01-01 00:00:00

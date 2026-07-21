@@ -1,0 +1,76 @@
+{
+  "expectation_suite_name": "northpeak_orders_bronze_suite",
+  "ge_cloud_id": null,
+  "data_asset_type": "Dataset",
+  "meta": {
+    "great_expectations_version": "0.18.0",
+    "created_by": "NorthPeak Data Platform Team",
+    "created_at": "2026-07-14",
+    "description": "Bronze layer validation suite for NP Core orders. Runs before Silver cleansing."
+  },
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {"min_value": 100, "max_value": 50000},
+      "meta": {"notes": "Daily order volume SLA: minimum 100 orders means pipeline is healthy"}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {"column": "order_id"},
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {"column": "order_id", "mostly": 1.0},
+      "meta": {"notes": "order_id must never be null - primary key"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {"column": "order_id"},
+      "meta": {"notes": "After dedup in Silver - but check for duplicates here first"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {"column": "store_id", "mostly": 1.0},
+      "meta": {"notes": "Every order must have a store_id"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {"column": "total_amount", "min_value": 0, "max_value": 10000},
+      "meta": {"notes": "Negative amounts quarantined in Silver. Max 10000 = sanity check."}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "order_channel",
+        "value_set": ["in_store", "online", "click_collect"]
+      },
+      "meta": {"notes": "Only three valid channels as per business definition"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {"column": "customer_id", "mostly": 0.96},
+      "meta": {"notes": "4.1% null customer_id is expected (pre-2018 records) - warn above 5%"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "order_ref",
+        "regex": "^NP-[0-9]{4}-[0-9]{7}$"
+      },
+      "meta": {"notes": "Order ref format: NP-YYYY-NNNNNNN"}
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "order_id","order_ref","customer_id","store_id","order_channel",
+          "order_status","order_date","completed_at","total_amount",
+          "discount_amount","vat_amount","payment_method","payment_reference",
+          "loyalty_points_earned","is_returned","created_at"
+        ]
+      },
+      "meta": {"notes": "Schema contract - fail if source adds or removes columns unexpectedly"}
+    }
+  ]
+}
